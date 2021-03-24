@@ -1,0 +1,25 @@
+{
+  "name": "why-hide",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "MINIMAL=1 CSB=1 nuxt",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "5.12.5",
+    "core-js": "^3.6.5",
+    "date-fns": "2.19.0",
+    "nuxt": "^2.14.6",
+    "querystring": "0.2.1",
+    "reqlim": "^0.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  },
+  "keywords": [],
+  "description": ""
+}
