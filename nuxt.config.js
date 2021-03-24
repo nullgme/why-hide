@@ -1,10 +1,9 @@
 import colors from "vuetify/es5/util/colors";
 
 export default {
-  ssr: false,
-  target: "static",
+  ssr: true,
   router: {
-    base: "/why-hide/"
+    base: "/csb-6vjx3/"
   },
   loadingIndicator: {
     name: "folding-cube",
@@ -12,7 +11,9 @@ export default {
     background: "#121212"
   },
   publicRuntimeConfig: {
-    prefix: "https://beta.pushshift.io/search/reddit/"
+    axios: {
+      prefix: "https://beta.pushshift.io/search/reddit/"
+    }
   },
   head: {
     title: "Why hide?",
